@@ -121,6 +121,22 @@
                         },
                         "env": [
                             {
+                                "name": "RELATED_IMAGE_PGO_BACKREST_REPO",
+                                "value": "perconalab/percona-postgres-operator:main-pgbackrest-repo"
+                            },
+                            {
+                                "name": "RELATED_IMAGE_PGO_BACKREST",
+                                "value": "perconalab/percona-postgres-operator:main-pgbackrest"
+                            },
+                            {
+                                "name": "CONTAINER_IMAGE_CRUNCHY_POSTGRES_HA",
+                                "value": "perconalab/percona-postgres-operator:postgres-ha"
+                            },
+                            {
+                                "name": "CONTAINER_IMAGE_CRUNCHY_PGBOUNCER",
+                                "value": "perconalab/percona-postgres-operator:main-pgbouncer"
+                            },
+                            {
                                 "name": "CRUNCHY_DEBUG",
                                 "value": "true"
                             },
